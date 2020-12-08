@@ -1,6 +1,6 @@
-import React from "react";
-import ReactDOM from "react-dom";
+import React from 'react';
+import ReactDOM from 'react-dom';
 
-import Input from "./components/Input";
+import Input from './components/Input/Input';
 
-ReactDOM.render(<Input />, document.querySelector("#app"));
+ReactDOM.render(<Input />, document.querySelector('#app'));
