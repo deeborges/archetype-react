@@ -1,4 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-ReactDOM.render(<div>Nome: {meuNome}</div>, document.querySelector("#app"));
+import Input from "./components/Input";
+
+ReactDOM.render(<Input />, document.querySelector("#app"));
