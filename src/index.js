@@ -3,4 +3,9 @@ import ReactDOM from 'react-dom';
 
 import Input from './components/Input/Input';
 
-ReactDOM.render(<Input />, document.querySelector('#app'));
+ReactDOM.render(
+  <React.StrictMode>
+    <Input />
+  </React.StrictMode>,
+  document.querySelector('#app')
+);
