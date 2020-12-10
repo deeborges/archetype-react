@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const Input = ({ id = '', label = '', type = 'text' }) => {
+export const Input = ({ id = '', label = '', type = 'text' }) => {
   const [value, handleChange] = useState('');
   return (
     <div>
@@ -18,5 +18,3 @@ const Input = ({ id = '', label = '', type = 'text' }) => {
     </div>
   );
 };
-
-export default Input;
