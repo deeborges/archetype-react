@@ -1,0 +1,12 @@
+{
+  "styled": {
+    "prefix": "archstyled",
+    "description": "Definições de storybook de forma mais rápida.",
+    "body": [
+      "import React from \"react\";",
+      "import PropTypes from \"prop-types\";",
+
+      "export const = styled. ;"
+    ]
+  }
+}
