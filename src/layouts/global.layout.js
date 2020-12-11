@@ -8,7 +8,6 @@ export default createGlobalStyle`
   }
   body, html {
     font-size: 62.5%;
-    height: 100%;
     position: relative;
   }
 `;
