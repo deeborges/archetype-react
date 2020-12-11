@@ -1,14 +1,22 @@
 {
-  "Archetype React": {
-    "prefix": "archbook",
+  "styled": {
+    "prefix": "archstyled",
     "description": "Definições de storybook de forma mais rápida.",
     "body": [
       "import React from \"react\";",
       "import PropTypes from \"prop-types\";",
 
-      "const Feature = () => (",
+      "export const ${TM_FILENASE_BASE} = () => (",
+      " $1",
+      ");",
+      "",
+      "export const ${TM_FILENASE_BASE} = styled. ;",
       " ",
-      ");"
+      "${TM_FILENASE_BASE}.defaultProps = {}",
+      "",
+      "${TM_FILENASE_BASE}.propTypes = {}",
+      "",
+      "export default ${TM_FILENASE_BASE};"
     ]
   }
 }
