@@ -68,6 +68,11 @@ module.exports = {
       {
         test: /\.(ttf|woff|woff2)$/,
         loader: 'url-loader'
+      },
+      {
+        test: /\.(js|jsx)?$/,
+        loader: 'stylelint-custom-processor-loader',
+        exclude: /node_modules/
       }
     ]
   },
