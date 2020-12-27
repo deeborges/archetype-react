@@ -78,7 +78,7 @@ export const ImageDescription = styled.p`
   flex: 1;
   justify-content: center;
   padding: 20px;
-  font-family: 'Publinc-Sans';
+  font-family: 'Publinc-Sans', sans-serif;
   font-size: 1rem;
   font-weight: bold;
   text-transform: uppercase;
