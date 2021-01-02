@@ -1,11 +1,11 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import Grid from './grid.layout';
+import { Grid } from './grid.layout';
 
 export default {
   title: 'Layouts/Grid',
-  component: Grid
+  component: Grid,
 };
 
 const GridItem = styled.div`

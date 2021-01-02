@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 import LayoutGlobal from './providers/theme.provider';
-import Input from './customs/components/Input';
+import Input from './components/Buttons/Button';
 
 ReactDOM.render(
   <React.StrictMode>

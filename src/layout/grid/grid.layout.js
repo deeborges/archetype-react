@@ -18,12 +18,12 @@ Grid.defaultProps = {
   sm: undefined,
   md: undefined,
   lg: undefined,
-  xl: undefined
+  xl: undefined,
 };
 
 Grid.propTypes = {
   sm: PropTypes.number,
   md: PropTypes.number,
   lg: PropTypes.number,
-  xl: PropTypes.number
+  xl: PropTypes.number,
 };
