@@ -25,7 +25,17 @@ const getMainColor = ({ theme, color }) => {
 	}
 };
 
-const getColorText = (props) => props.theme.colors.purple;
+const getColorText = ({ theme, color }) => {
+	switch (color) {
+		case ButtonColors.primary:
+			return theme.colors.blue;
+		case ButtonColors.danger:
+			return theme.colors.red;
+		default:
+			return '#212121';
+	}
+};
+
 const getOutlinedColorText = (props) => {
 	if (props.color == ButtonColors.default) {
 		return '#212121';

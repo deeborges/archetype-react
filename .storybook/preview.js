@@ -1,7 +1,8 @@
 import React from 'react';
+import { select } from '@storybook/addon-knobs';
 
 import LayoutGlobal from '../src/layout/global.layout';
-import ThemeProvider from '../src/providers/theme.provider';
+import ThemeProvider, { ThemeNames } from '../src/providers/theme.provider';
 import { viewports } from '../src/utils/utils.storybook';
 
 export const parameters = {
@@ -15,7 +16,7 @@ export const decorators = [
 	(Story) => (
 		<>
 			<LayoutGlobal />
-			<ThemeProvider>
+			<ThemeProvider theme={select('Theme', ThemeNames, ThemeNames.light)}>
 				<Story />
 			</ThemeProvider>
 		</>

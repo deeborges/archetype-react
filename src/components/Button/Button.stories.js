@@ -2,6 +2,7 @@ import React from 'react';
 import Button from './Button';
 
 import { actions } from '@storybook/addon-actions';
+
 import styled from 'styled-components';
 
 export default {
