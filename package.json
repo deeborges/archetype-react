@@ -11,7 +11,8 @@
 		"cover": "yarn test -- --coverage --watchAll=false",
 		"book": "start-storybook -p 6006",
 		"book:build": "build-storybook",
-		"lint:css": "stylelint './src/**/*.js'"
+		"lint:css": "stylelint './src/**/*.js'",
+		"upgrade": "yarn upgrade --latest"
 	},
 	"devDependencies": {
 		"@babel/cli": "^7.12.10",
@@ -32,13 +33,14 @@
 		"babel-jest": "^26.6.3",
 		"babel-loader": "^8.2.2",
 		"css-loader": "^5.0.1",
-		"eslint": "^7.15.0",
+		"eslint": "^7.17.0",
 		"eslint-loader": "^4.0.2",
-		"eslint-plugin-react": "^7.21.5",
+		"eslint-plugin-react": "^7.22.0",
 		"file-loader": "^6.2.0",
 		"html-loader": "^1.3.2",
-		"html-webpack-plugin": "^5.0.0-alpha.15",
+		"html-webpack-plugin": "5.0.0-alpha.15",
 		"jest": "^26.6.3",
+		"jest-styled-components": "^7.0.3",
 		"prettier": "2.2.1",
 		"style-loader": "^2.0.0",
 		"stylelint": "^13.8.0",

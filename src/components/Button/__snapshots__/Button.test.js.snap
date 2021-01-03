@@ -2,8 +2,28 @@
 
 exports[`renderizar a variacao default 1`] = `
 <DocumentFragment>
-  <button
-    class="sc-bdfBwQ jIFCMh"
+  .c0 {
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 12px 36px;
+  cursor: pointer;
+  background-color: #e0e0e0;
+  border: 2px solid #e0e0e0;
+  color: #212121;
+}
+
+.c0:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.c0:hover:enabled {
+  background-color: '#c3c3c3';
+}
+
+<button
+    class="c0"
     color="default"
     type="button"
   >
@@ -14,8 +34,41 @@ exports[`renderizar a variacao default 1`] = `
 
 exports[`renderizar a variacao link 1`] = `
 <DocumentFragment>
-  <button
-    class="sc-bdfBwQ sc-dlfnbm jIFCMh dGBDFc"
+  .c0 {
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 12px 36px;
+  cursor: pointer;
+  background-color: #e0e0e0;
+  border: 2px solid #e0e0e0;
+  color: #212121;
+}
+
+.c0:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.c0:hover:enabled {
+  background-color: '#c3c3c3';
+}
+
+.c1 {
+  background-color: transparent;
+  border-color: transparent;
+  color: #757575;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.c1:hover:enabled {
+  background-color: transparent;
+  opacity: 0.7;
+}
+
+<button
+    class="c0 c1"
     color="default"
     type="button"
   >
@@ -26,8 +79,38 @@ exports[`renderizar a variacao link 1`] = `
 
 exports[`renderizar a variacao outlined 1`] = `
 <DocumentFragment>
-  <button
-    class="sc-bdfBwQ sc-gsTCUz jIFCMh gqYILX"
+  .c0 {
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 12px 36px;
+  cursor: pointer;
+  background-color: #e0e0e0;
+  border: 2px solid #e0e0e0;
+  color: #212121;
+}
+
+.c0:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.c0:hover:enabled {
+  background-color: '#c3c3c3';
+}
+
+.c1 {
+  background-color: transparent;
+  color: #212121;
+}
+
+.c1:hover:enabled {
+  background-color: transparent;
+  color: #212121;
+}
+
+<button
+    class="c0 c1"
     color="default"
     type="button"
   >
@@ -38,8 +121,28 @@ exports[`renderizar a variacao outlined 1`] = `
 
 exports[`renderizar com cor danger 1`] = `
 <DocumentFragment>
-  <button
-    class="sc-bdfBwQ hIutWm"
+  .c0 {
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 12px 36px;
+  cursor: pointer;
+  background-color: red;
+  border: 2px solid red;
+  color: #ffffff;
+}
+
+.c0:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.c0:hover:enabled {
+  background-color: '#c3c3c3';
+}
+
+<button
+    class="c0"
     color="danger"
     type="button"
   >
@@ -50,8 +153,28 @@ exports[`renderizar com cor danger 1`] = `
 
 exports[`renderizar com cor default 1`] = `
 <DocumentFragment>
-  <button
-    class="sc-bdfBwQ jIFCMh"
+  .c0 {
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 12px 36px;
+  cursor: pointer;
+  background-color: #e0e0e0;
+  border: 2px solid #e0e0e0;
+  color: #212121;
+}
+
+.c0:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.c0:hover:enabled {
+  background-color: '#c3c3c3';
+}
+
+<button
+    class="c0"
     color="default"
     type="button"
   >
@@ -62,8 +185,28 @@ exports[`renderizar com cor default 1`] = `
 
 exports[`renderizar com cor primary 1`] = `
 <DocumentFragment>
-  <button
-    class="sc-bdfBwQ homhHy"
+  .c0 {
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 12px 36px;
+  cursor: pointer;
+  background-color: aquamarine;
+  border: 2px solid aquamarine;
+  color: #ffffff;
+}
+
+.c0:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.c0:hover:enabled {
+  background-color: '#c3c3c3';
+}
+
+<button
+    class="c0"
     color="primary"
     type="button"
   >
@@ -74,8 +217,38 @@ exports[`renderizar com cor primary 1`] = `
 
 exports[`renderizar com cor primary e variant outlined 1`] = `
 <DocumentFragment>
-  <button
-    class="sc-bdfBwQ sc-gsTCUz homhHy gOirBP"
+  .c0 {
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 12px 36px;
+  cursor: pointer;
+  background-color: aquamarine;
+  border: 2px solid aquamarine;
+  color: #ffffff;
+}
+
+.c0:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.c0:hover:enabled {
+  background-color: '#c3c3c3';
+}
+
+.c1 {
+  background-color: transparent;
+  color: aquamarine;
+}
+
+.c1:hover:enabled {
+  background-color: transparent;
+  color: aquamarine;
+}
+
+<button
+    class="c0 c1"
     color="primary"
     type="button"
   >
