@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renderizar a variacao default 1`] = `
+<DocumentFragment>
+  <button
+    class="sc-bdfBwQ jIFCMh"
+    color="default"
+    type="button"
+  >
+    botão de teste
+  </button>
+</DocumentFragment>
+`;
+
+exports[`renderizar a variacao link 1`] = `
+<DocumentFragment>
+  <button
+    class="sc-bdfBwQ sc-dlfnbm jIFCMh dGBDFc"
+    color="default"
+    type="button"
+  >
+    botão de teste
+  </button>
+</DocumentFragment>
+`;
+
+exports[`renderizar a variacao outlined 1`] = `
+<DocumentFragment>
+  <button
+    class="sc-bdfBwQ sc-gsTCUz jIFCMh gqYILX"
+    color="default"
+    type="button"
+  >
+    botão de teste
+  </button>
+</DocumentFragment>
+`;
+
+exports[`renderizar com cor danger 1`] = `
+<DocumentFragment>
+  <button
+    class="sc-bdfBwQ hIutWm"
+    color="danger"
+    type="button"
+  >
+    botão de teste
+  </button>
+</DocumentFragment>
+`;
+
+exports[`renderizar com cor default 1`] = `
+<DocumentFragment>
+  <button
+    class="sc-bdfBwQ jIFCMh"
+    color="default"
+    type="button"
+  >
+    botão de teste
+  </button>
+</DocumentFragment>
+`;
+
+exports[`renderizar com cor primary 1`] = `
+<DocumentFragment>
+  <button
+    class="sc-bdfBwQ homhHy"
+    color="primary"
+    type="button"
+  >
+    botão de teste
+  </button>
+</DocumentFragment>
+`;
+
+exports[`renderizar com cor primary e variant outlined 1`] = `
+<DocumentFragment>
+  <button
+    class="sc-bdfBwQ sc-gsTCUz homhHy gOirBP"
+    color="primary"
+    type="button"
+  >
+    botão de teste
+  </button>
+</DocumentFragment>
+`;

@@ -2,13 +2,13 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
-const ButtonColors = {
+export const ButtonColors = {
 	default: 'default',
 	primary: 'primary',
 	danger: 'danger',
 };
 
-const ButtonVariants = {
+export const ButtonVariants = {
 	default: 'default',
 	outlined: 'outlined',
 	link: 'link',
@@ -28,9 +28,9 @@ const getMainColor = ({ theme, color }) => {
 const getColorText = ({ theme, color }) => {
 	switch (color) {
 		case ButtonColors.primary:
-			return theme.colors.blue;
+			return theme.colors.white;
 		case ButtonColors.danger:
-			return theme.colors.red;
+			return theme.colors.white;
 		default:
 			return '#212121';
 	}
