@@ -1,0 +1,47 @@
+import { Meta } from '@storybook/addon-docs/blocks';
+import { sizes } from './breakpoints';
+
+<Meta title="layout/breakpoints" />
+
+# Breakpoints
+
+Breakpoints for responsive layout:
+
+<table>
+	<tr>
+		<th> Extra small (xs) </th>
+		<td>Default</td>
+	</tr>
+	<tr>
+		<th> Small (sm) </th>
+		<td>>= {sizes.sm}px</td>
+	</tr>
+	<tr>
+		<th> Medium (md) </th>
+		<td>>= {sizes.md}px</td>
+	</tr>
+	<tr>
+		<th> Large (lg) </th>
+		<td>>= {sizes.lg}px</td>
+	</tr>
+	<tr>
+		<th> Extra Large (xl) </th>
+		<td>>= {sizes.xl}px</td>
+	</tr>
+</table>
+
+Using in styled components:
+
+```jsx
+import { breakAt, sizes } from breakpoints;
+
+const Title = styled.h1`
+  font-size: 1rem;
+
+  ${breakAt(sizes.md)} {
+    font-size: 2rem;
+  }
+`;
+
+
+```
